@@ -23,6 +23,7 @@ extern "C" {
 
 #define NU_MAX(a,b) ((a)>(b)?(a):(b))
 #define NU_MIN(a,b) ((a)<(b)?(a):(b))
+#define NU_CLAMP(x, min, max)   NU_MIN(NU_MAX((x), (min)), (max))
 
 #ifdef __cplusplus
 }
