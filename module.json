@@ -1,6 +1,6 @@
 {
   "name": "mbed-hal-nuvoton",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "mbed low-level Hardware Abstraction Layer implementation for Nuvoton microcontrollers",
   "keywords": [
     "mbed",
@@ -30,6 +30,9 @@
       "mbed-hal-nuc472": "^1.0.0"
     },
     "m451": {
+      "mbed-hal-m451": "^1.0.0"
+    },
+    "m453": {
       "mbed-hal-m451": "^1.0.0"
     }
   }
